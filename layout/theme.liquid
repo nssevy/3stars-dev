@@ -11,7 +11,8 @@
     {% render 'meta-tags' %}
 
     {{ content_for_header }}
-  </head>
+    {{ 'application.css' | asset_url | stylesheet_tag }}
+    </head>
 
   <body>
     {% sections 'header-group' %}

@@ -1,0 +1,47 @@
+{
+  "name": "3stars-dev",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\" style=\"position: relative;\">\r   <br>\r     <img src=\"./assets/shoppy-x-ray.svg\" alt=\"logo\" width=\"200\">\r   <br>\r   Shopify Skeleton Theme\r </h1>",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "braces": "^3.0.3",
+    "detect-libc": "^1.0.3",
+    "enhanced-resolve": "^5.18.3",
+    "fill-range": "^7.1.1",
+    "graceful-fs": "^4.2.11",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "jiti": "^2.6.1",
+    "lightningcss": "^1.30.2",
+    "lightningcss-darwin-arm64": "^1.30.2",
+    "magic-string": "^0.30.21",
+    "micromatch": "^4.0.8",
+    "mri": "^1.2.0",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.1",
+    "source-map-js": "^1.2.1",
+    "tailwindcss": "^4.1.16",
+    "tapable": "^2.3.0",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "./node_modules/.bin/tailwindcss -i ./src/input.css -o ./assets/application.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nssevy/3stars-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nssevy/3stars-dev/issues"
+  },
+  "homepage": "https://github.com/nssevy/3stars-dev#readme"
+}
